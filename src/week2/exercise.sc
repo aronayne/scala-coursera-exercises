@@ -13,9 +13,10 @@ object exercise {
  		loop(1 , n)
  	}                                         //> factorial: (n: Int)Int
  	
- 	factorial(4)                              //> acc : 1 , n : 4
-                                                  //| acc : 4 , n : 3
-                                                  //| acc : 12 , n : 2
-                                                  //| acc : 24 , n : 1
-                                                  //| res0: Int = 24
+ 	factorial(5)                              //> acc : 1 , n : 5
+                                                  //| acc : 5 , n : 4
+                                                  //| acc : 20 , n : 3
+                                                  //| acc : 60 , n : 2
+                                                  //| acc : 120 , n : 1
+                                                  //| res0: Int = 120
  }
